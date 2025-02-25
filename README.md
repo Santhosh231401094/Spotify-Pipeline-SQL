@@ -9,10 +9,10 @@ This project builds a data pipeline to extract track metadata from the Spotify A
 ✔️ Analyze trends using SQL queries                                                                                                                                                                                
 
 # Tech Stack
-Python (for API integration & data handling)
-Spotify API (to fetch track details)
-MySQL (to store and query track data)
-pandas (for data manipulation)
+Python (for API integration & data handling)                                                                                                                                                                    
+Spotify API (to fetch track details)                                                                                                                                                                        
+MySQL (to store and query track data)                                                                                                                                                                        
+pandas (for data manipulation)                                                                                                                                                                                
 
 ![image](https://github.com/user-attachments/assets/b9cb9b38-f26d-41fe-a5e3-edd9a61e9f4c)
 
