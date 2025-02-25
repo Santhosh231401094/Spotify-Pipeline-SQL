@@ -14,6 +14,9 @@ Spotify API (to fetch track details)
 MySQL (to store and query track data)
 pandas (for data manipulation)
 
+![image](https://github.com/user-attachments/assets/b9cb9b38-f26d-41fe-a5e3-edd9a61e9f4c)
+
+
 # 1. Create Table
 ```python
 # Create Table Query
@@ -47,11 +50,18 @@ def fetch_spotify_track(url):
 ```sql
 SELECT * FROM spotify_tracks;
 ```
+![image](https://github.com/user-attachments/assets/a4c91f40-f6b0-41e3-a682-00381ca89703)
+
+
 to find the artist that occurs the most 
 ```sql
 SELECT artist,COUNT(*) as count from spotify_tracks GROUP BY artist ORDER BY count desc;
 ```
+![image](https://github.com/user-attachments/assets/6d9f732e-cd19-49c2-907b-4c7257048698)
+
 most popular track
 ```sql
 SELECT track_name,popularity from spotify_tracks order by popularity desc limit 1;
 ```
+![image](https://github.com/user-attachments/assets/3c994474-a096-4a63-83c3-f59b620df7f9)
+
