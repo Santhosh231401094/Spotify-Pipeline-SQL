@@ -3,10 +3,10 @@
 This project builds a data pipeline to extract track metadata from the Spotify API, store it in a MySQL database, and analyze it using SQL queries. It provides insights into popular tracks, artists, and other key metrics.
 
 # Features
-✔️ Extract track details using the Spotify API
-✔️ Transform raw data (convert duration, clean fields)
-✔️ Load (ETL) into a MySQL database
-✔️ Analyze trends using SQL queries
+✔️ Extract track details using the Spotify API                                                                                                                                                                    
+✔️ Transform raw data (convert duration, clean fields)                                                                                                                                                            
+✔️ Load (ETL) into a MySQL database                                                                                                                                                                            
+✔️ Analyze trends using SQL queries                                                                                                                                                                                
 
 # Tech Stack
 Python (for API integration & data handling)
